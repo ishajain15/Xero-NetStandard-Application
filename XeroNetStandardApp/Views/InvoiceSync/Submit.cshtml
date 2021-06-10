@@ -1,0 +1,38 @@
+@model List<XeroNetStandardApp.Models.InvoiceModel>
+
+<h2>Submit an Invoice</h2>
+@using (Html.BeginForm()) {
+  <table border="1">
+    <tr>
+      <th>Invoice #</th>
+      <th>To</th>
+      <th>Date</th>
+      <th>Due Date</th>
+      <th>Total Due</th>
+      <th>Status</th>
+      <th>Submit?</th>
+    </tr>
+ 
+  @for (var i = 0; i < Model.Count(); i++) {
+    <tr>
+      @Html.HiddenFor(models => models[i].invoiceId, new {Value = Model[i].invoiceId, Name = "invoiceId"})
+      <td>@Model[i].invoice.InvoiceNumber</td>
+      <td>@Model[i].invoice.Contact.Name</td>
+      <td>@Model[i].invoice.Date</td>
+      <td>@Model[i].invoice.DueDate</td>
+      <td>@Model[i].invoice.Total</td>
+      <td>@Model[i].invoice.Status</td>
+      <td>@Html.CheckBoxFor(models => models[i].isChecked)</td>
+    </tr>
+  }
+  </table>
+  <br>
+  <input id="selected" type="submit" value="Submit"/>
+}
+
+<br>
+<br>
+
+<p>
+  <button onclick="location.href='@Url.Action("Index", "Home")'">Home</button>
+</p>
