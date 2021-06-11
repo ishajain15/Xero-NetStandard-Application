@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/XeroNetStandardApp.csproj",
+  "FilePath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/XeroNetStandardApp.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14402,103 +14402,103 @@
   "RootNamespace": "XeroNetStandardApp",
   "Documents": [
     {
-      "FilePath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/Views/AssetsInfo/Create.cshtml",
-      "TargetPath": "Views\\AssetsInfo\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/Views/Employeesinfo/Index.cshtml",
-      "TargetPath": "Views\\Employeesinfo\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/Views/IdentityInfo/Index.cshtml",
-      "TargetPath": "Views\\IdentityInfo\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/Views/InvoiceSync/Approve.cshtml",
-      "TargetPath": "Views\\InvoiceSync\\Approve.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/Views/ContactsInfo/Create.cshtml",
-      "TargetPath": "Views\\ContactsInfo\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/Views/BankTransactionsInfo/Index.cshtml",
-      "TargetPath": "Views\\BankTransactionsInfo\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/Views/OrganisationInfo/Index.cshtml",
-      "TargetPath": "Views\\OrganisationInfo\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/Views/Employeesinfo/Create.cshtml",
+      "FilePath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/Views/Employeesinfo/Create.cshtml",
       "TargetPath": "Views\\Employeesinfo\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/Views/Shared/Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/Views/InvoiceSync/Submit.cshtml",
-      "TargetPath": "Views\\InvoiceSync\\Submit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/Views/_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/Views/InvoiceSync/Create.cshtml",
-      "TargetPath": "Views\\InvoiceSync\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/Views/ContactsInfo/Index.cshtml",
-      "TargetPath": "Views\\ContactsInfo\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/Views/InvoiceSync/Index.cshtml",
-      "TargetPath": "Views\\InvoiceSync\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/Views/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/Views/_ViewStart.cshtml",
+      "FilePath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/Views/AssetsInfo/Index.cshtml",
+      "FilePath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/Views/InvoiceSync/Index.cshtml",
+      "TargetPath": "Views\\InvoiceSync\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/Views/OrganisationInfo/Index.cshtml",
+      "TargetPath": "Views\\OrganisationInfo\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/Views/IdentityInfo/Index.cshtml",
+      "TargetPath": "Views\\IdentityInfo\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/Views/ContactsInfo/Create.cshtml",
+      "TargetPath": "Views\\ContactsInfo\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/Views/InvoiceSync/Submit.cshtml",
+      "TargetPath": "Views\\InvoiceSync\\Submit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/Views/Home/Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/Views/ContactsInfo/Index.cshtml",
+      "TargetPath": "Views\\ContactsInfo\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/Views/Shared/Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/Views/InvoiceSync/Approve.cshtml",
+      "TargetPath": "Views\\InvoiceSync\\Approve.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/Views/BankTransactionsInfo/Index.cshtml",
+      "TargetPath": "Views\\BankTransactionsInfo\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/Views/InvoiceSync/Create.cshtml",
+      "TargetPath": "Views\\InvoiceSync\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/Views/AssetsInfo/Create.cshtml",
+      "TargetPath": "Views\\AssetsInfo\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/Views/AssetsInfo/Index.cshtml",
       "TargetPath": "Views\\AssetsInfo\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/Views/Employeesinfo/Index.cshtml",
+      "TargetPath": "Views\\Employeesinfo\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

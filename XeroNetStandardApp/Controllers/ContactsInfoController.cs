@@ -59,7 +59,7 @@ namespace XeroNetStandardApp.Controllers
 
     // POST: /ContactsInfo#Create
     [HttpPost]
-    public async Task<ActionResult> Create(string Name, string EmailAddress)
+    public async Task<ActionResult> Create(string Name, string EmailAddress, string AccountNumber, string Address1, string Address2, string City, string Region, string PostalCode, string Country)
     {
       var xeroToken = TokenUtilities.GetStoredToken();
       var utcTimeNow = DateTime.UtcNow;
@@ -77,6 +77,17 @@ namespace XeroNetStandardApp.Controllers
       var contact = new Contact();
       contact.Name = Name;
       contact.EmailAddress = EmailAddress;
+      contact.AccountNumber = AccountNumber;
+      contact.Addresses = new List<Address>();
+      contact.Addresses.Add(new Address());
+      contact.Addresses[0].AddressType = Address.AddressTypeEnum.POBOX;
+      contact.Addresses[0].AddressLine1 = Address1;
+      contact.Addresses[0].AddressLine2 = Address2;
+      contact.Addresses[0].City = City;
+      contact.Addresses[0].Region = Region;
+      contact.Addresses[0].PostalCode = PostalCode;
+      contact.Addresses[0].Country = Country;
+
       var contacts = new Contacts();
       contacts._Contacts = new List<Contact>() { contact };
 

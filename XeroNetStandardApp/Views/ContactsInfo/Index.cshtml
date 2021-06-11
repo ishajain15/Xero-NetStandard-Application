@@ -6,11 +6,25 @@
   <tr>
     <th>Name</th>
     <th>Email</th>
+    <th>Account Number</th>
+    <th>Address Line 1</th>
+    <th>Address Line 2</th>
+    <th>City</th>
+    <th>Region</th>
+    <th>Postal Code</th>
+    <th>Country</th>
   </tr>
   @foreach (var contact in Model) {
     <tr>
       <td>@contact.Name</td>
       <td>@contact.EmailAddress</td>
+      <td>@contact.AccountNumber</td>
+      <td>@contact.Addresses[1].AddressLine1</td>
+      <td>@contact.Addresses[1].AddressLine2</td>
+      <td>@contact.Addresses[1].City</td>
+      <td>@contact.Addresses[1].Region</td>
+      <td>@contact.Addresses[1].PostalCode</td>
+      <td>@contact.Addresses[1].Country</td>
     </tr>
   }
 </table>

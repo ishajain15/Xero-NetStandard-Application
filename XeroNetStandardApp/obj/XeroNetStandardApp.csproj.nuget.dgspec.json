@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/XeroNetStandardApp.csproj": {}
+    "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/XeroNetStandardApp.csproj": {}
   },
   "projects": {
-    "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/XeroNetStandardApp.csproj": {
+    "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/XeroNetStandardApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/XeroNetStandardApp.csproj",
+        "projectUniqueName": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/XeroNetStandardApp.csproj",
         "projectName": "XeroNetStandardApp",
-        "projectPath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/XeroNetStandardApp.csproj",
+        "projectPath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/XeroNetStandardApp.csproj",
         "packagesPath": "/Users/ishajain/.nuget/packages/",
-        "outputPath": "/Users/ishajain/Desktop/xero-netstandard-oauth2-starter-dotnet-core/XeroNetStandardApp/obj/",
+        "outputPath": "/Users/ishajain/Desktop/Xero-NetStandard-Application/XeroNetStandardApp/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
