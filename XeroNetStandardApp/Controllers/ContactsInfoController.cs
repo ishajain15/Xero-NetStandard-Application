@@ -59,7 +59,7 @@ namespace XeroNetStandardApp.Controllers
 
     // POST: /ContactsInfo#Create
     [HttpPost]
-    public async Task<ActionResult> Create(string Name, string EmailAddress, string AccountNumber, string Address1, string Address2, string City, string Region, string PostalCode, string Country)
+    public async Task<ActionResult> Create(Contact input)
     {
       var xeroToken = TokenUtilities.GetStoredToken();
       var utcTimeNow = DateTime.UtcNow;
@@ -75,18 +75,20 @@ namespace XeroNetStandardApp.Controllers
       string xeroTenantId = xeroToken.Tenants[0].TenantId.ToString();
 
       var contact = new Contact();
-      contact.Name = Name;
-      contact.EmailAddress = EmailAddress;
-      contact.AccountNumber = AccountNumber;
+      contact.Name = input.Name;
+      contact.EmailAddress = input.EmailAddress;
+      contact.AccountNumber = input.AccountNumber;
       contact.Addresses = new List<Address>();
       contact.Addresses.Add(new Address());
       contact.Addresses[0].AddressType = Address.AddressTypeEnum.POBOX;
-      contact.Addresses[0].AddressLine1 = Address1;
-      contact.Addresses[0].AddressLine2 = Address2;
-      contact.Addresses[0].City = City;
-      contact.Addresses[0].Region = Region;
-      contact.Addresses[0].PostalCode = PostalCode;
-      contact.Addresses[0].Country = Country;
+      contact.Addresses[0].AddressLine1 = input.Addresses[0].AddressLine1;
+      contact.Addresses[0].AddressLine2 = input.Addresses[0].AddressLine2;
+      contact.Addresses[0].City = input.Addresses[0].City;
+      contact.Addresses[0].Region = input.Addresses[0].Region;
+      contact.Addresses[0].PostalCode = input.Addresses[0].PostalCode;
+      contact.Addresses[0].Country = input.Addresses[0].Country;
+
+      SalesTrackingCategory salesTrackingCategory = new SalesTrackingCategory();
 
       var contacts = new Contacts();
       contacts._Contacts = new List<Contact>() { contact };
