@@ -59,7 +59,7 @@ namespace XeroNetStandardApp.Controllers
 
     // POST: /ContactsInfo#Create
     [HttpPost]
-    public async Task<ActionResult> Create(Contact input)
+    public async Task<ActionResult> Create(Contact input, SalesTrackingCategory sales)
     {
       var xeroToken = TokenUtilities.GetStoredToken();
       var utcTimeNow = DateTime.UtcNow;
@@ -88,7 +88,8 @@ namespace XeroNetStandardApp.Controllers
       contact.Addresses[0].PostalCode = input.Addresses[0].PostalCode;
       contact.Addresses[0].Country = input.Addresses[0].Country;
 
-      SalesTrackingCategory salesTrackingCategory = new SalesTrackingCategory();
+      contact.SalesTrackingCategories = new List<SalesTrackingCategory>();
+      contact.SalesTrackingCategories.Add(sales);
 
       var contacts = new Contacts();
       contacts._Contacts = new List<Contact>() { contact };
